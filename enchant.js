@@ -361,7 +361,8 @@ enchant.ENV = {
                 viewport = document.createElement('meta');
                 document.head.appendChild(viewport);
             }
-            viewport.setAttribute('content', 'width=640');
+            //viewport.setAttribute('content', 'width=640');
+            viewport.setAttribute('content', 'width=320');
             return true;
         } else {
             return false;
